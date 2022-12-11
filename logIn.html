@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <script  src="https://kit.fontawesome.com/b4ca558849.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand h-50 d-none d-md-block d-lg-block" style="background:whiteSmoke">
+        <div class="container p-3">
+            <a href="./index.html"><h1 class="navbar-brand text-capitalize fs-5"><i class="fa-solid fa-gamepad"></i><span class="alura">Alura</span>Geek</h1></a>
+            <input type="text" placeholder="Search products" class="form-control w-25 searchbar"/>
+            <button class="btn btn-outline-primary p-2" id="btn-log"> <a href="/logIn.html" class="text-decoration-none">Log In</a></button>
+            <button class="btn btn-outline-primary p-2 d-none" id="btn-logout">Log Out</button>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand h-50 d-block d-md-none d-lg-none" style="background:whiteSmoke">
+        <div class="container p-3">
+            <a href="./index.html"><h1 class="navbar-brand text-capitalize fs-5"><i class="fa-solid fa-gamepad"></i><span class="alura">Alura</span>Geek</h1></a>
+            <button class="btn btn-outline-primary p-2">Log In</button>
+            <button class="btn btn-outline-primary p-2 d-none" id="btn-logout">Log Out</button>
+            <i class="fa-solid fa-magnifying-glass" style="font-size: 30px ;" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"></i>
+           <!-- <input type="text" placeholder="Search products" class="form-control w-25 searchbar"/> -->
+        </div>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                <div class="input-group w-75 mx-auto my-auto">
+                    <input type="text" placeholder="Search products" class=" col-3 form-control  searchbar"/>
+                    <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+            </div>
+          </div>
+    </nav>
+       <main style="background-color: white ;"  id="logIn">
+        <section class="container p-5">
+            <div class="row">
+                <form class="w-50 mx-auto d-block my-5">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="admin@algo.com" data-name="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" data-name="password" placeholder="1234!">
+                      </div>
+                      <button class="btn btn-primary mx-auto d-block" id="btn-submit">Ingresar</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="container p-4 d-none d-lg-block ">
+            <div class="row gap-5 mt-4">
+                <div class="col-3">
+                    <h1 class="align-self-center text-capitalize fs-3"><i class="fa-solid fa-gamepad"></i><span class="alura">Alura</span>Geek</h1>
+                </div>
+                <div class="col-3">
+                    <ul class="list-unstyled text-start">
+                        <li class="mb-3">Quienes somos</li>
+                        <li  class="mb-3">Politica de Privacidad</li>
+                        <li  class="mb-3">Programa de Fidelidad</li>
+                        <li  class="mb-3">Nustras Tiendas</li>
+                        <li  class="mb-3">Quiero ser Franquiciado</li>
+                        <li>Anuncie Aqui</li>
+                    </ul>
+                </div>
+                <div class="col ms-3">
+                  <h3>Hable con Nosotros</h3>
+                  <form>
+                    <div class="form-floating my-3 w-25">
+                        <input  class="form-control input" type="text"  id="nombre" placeholder="Ingrese su Nombre" >
+                         <label for="nombre">Nombre</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Escribe tu mensaje Aqui</label>
+                      </div>
+                    <button class="btn btn-primary">Enviar mensaje</button>
+                  </form>
+                </div>
+            </div>
+        </div>
+        <div class="container p-4 d-md-block d-none d-lg-none">
+            <div class="row">
+                <div class="col">
+                    <h1 class="align-self-center text-capitalize fs-3"><i class="fa-solid fa-gamepad"></i><span class="alura">Alura</span>Geek</h1>
+                    <ul class="list-unstyled text-start">
+                        <li class="mb-3">Quienes somos</li>
+                        <li  class="mb-3">Politica de Privacidad</li>
+                        <li  class="mb-3">Programa de Fidelidad</li>
+                        <li  class="mb-3">Nustras Tiendas</li>
+                        <li  class="mb-3">Quiero ser Franquiciado</li>
+                        <li>Anuncie Aqui</li>
+                    </ul>
+                </div>
+                <div class="col ms-3">
+                    <h3>Hable con Nosotros</h3>
+                    <form>
+                      <div class="form-floating my-3 w-25">
+                          <input  class="form-control input" type="text"  id="nombre" placeholder="Ingrese su Nombre" >
+                           <label for="nombre">Nombre</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                          <label for="floatingTextarea">Escribe tu mensaje Aqui</label>
+                        </div>
+                      <button class="btn btn-primary">Enviar mensaje</button>
+                    </form>
+                  </div>
+            </div>
+        </div>
+
+        <div class="container p-4 d-block d-md-none d-lg-none">
+            <div class="row d-flex flex-columnr">
+            <div class="col">
+                <h1 class="align-self-center text-capitalize text-center fs-3"><i class="fa-solid fa-gamepad"></i><span class="alura">Alura</span>Geek</h1>
+                <ul class="list-unstyled text-center">
+                    <li class="mb-3">Quienes somos</li>
+                    <li  class="mb-3">Politica de Privacidad</li>
+                    <li  class="mb-3">Programa de Fidelidad</li>
+                    <li  class="mb-3">Nustras Tiendas</li>
+                    <li  class="mb-3">Quiero ser Franquiciado</li>
+                    <li>Anuncie Aqui</li>
+                </ul>
+            </div>
+            <div class="col ms-3">
+                <h3>Hable con Nosotros</h3>
+                <form>
+                  <div class="form-floating my-3 w-25">
+                      <input  class="form-control input" type="text"  id="nombre" placeholder="Ingrese su Nombre" >
+                       <label for="nombre">Nombre</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                      <label for="floatingTextarea">Escribe tu mensaje Aqui</label>
+                    </div>
+                  <button class="btn btn-primary">Enviar mensaje</button>
+                </form>
+              </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="./login.js" type="module" defer></script>
+  </body>
+</html>

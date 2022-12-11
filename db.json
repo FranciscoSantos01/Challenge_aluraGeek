@@ -1,0 +1,152 @@
+{
+  "starwars": [
+    {
+      "img": "./Imagenes/unsplash_6FDXGY9J6y4.png",
+      "title": "Producto 1",
+      "price": 60,
+      "category": "starwars",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur sapiente aliquid rerum eaque, ducimus dignissimos cupiditate quidem velit aut facere sequi assumenda officiis reiciendis recusandae quae dolorum! Voluptate, optio.",
+      "id": 1
+    },
+    {
+      "img": "./Imagenes/unsplash_epRFE_hBNjo.png",
+      "title": "Producto 2",
+      "price": 40,
+      "category": "starwars",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur sapiente aliquid rerum eaque, ducimus dignissimos cupiditate quidem velit aut facere sequi assumenda officiis reiciendis recusandae quae dolorum! Voluptate, optio.",
+      "id": 2
+    },
+    {
+      "img": "./Imagenes/unsplash_KeGToDVN0l4.png",
+      "title": "Producto 3",
+      "price": 55,
+      "category": "starwars",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur sapiente aliquid rerum eaque, ducimus dignissimos cupiditate quidem velit aut facere sequi assumenda officiis reiciendis recusandae quae dolorum! Voluptate, optio.",
+      "id": 3
+    },
+    {
+      "img": "./Imagenes/unsplash_4OHkK555s1A.png",
+      "title": "Producto 4",
+      "price": 65,
+      "category": "starwars",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur sapiente aliquid rerum eaque, ducimus dignissimos cupiditate quidem velit aut facere sequi assumenda officiis reiciendis recusandae quae dolorum! Voluptate, optio.",
+      "id": 4
+    },
+    {
+      "img": "./Imagenes/unsplash_R8L1l9RN198.png",
+      "title": "Producto 5",
+      "price": 45,
+      "category": "starwars",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur sapiente aliquid rerum eaque, ducimus dignissimos cupiditate quidem velit aut facere sequi assumenda officiis reiciendis recusandae quae dolorum! Voluptate, optio.",
+      "id": 5
+    },
+    {
+      "img": "./Imagenes/unsplash_1VV1MRafd7A.png",
+      "title": "Producto 6",
+      "price": 42,
+      "category": "starwars",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur sapiente aliquid rerum eaque, ducimus dignissimos cupiditate quidem velit aut facere sequi assumenda officiis reiciendis recusandae quae dolorum! Voluptate, optio.",
+      "id": 6
+    }
+  ],
+  "consolas": [
+    {
+      "img": "Imagenes/consolas/unsplash_0POwK6iAiRQ.png",
+      "title": "Producto 1",
+      "price": 20,
+      "category": "Consolas",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur sapiente aliquid rerum eaque, ducimus dignissimos cupiditate quidem velit aut facere sequi assumenda officiis reiciendis recusandae quae dolorum! Voluptate, optio.",
+      "id": 7
+    },
+    {
+      "img": "Imagenes/consolas/unsplash_caNzzoxls8Q.png",
+      "title": "Producto 2",
+      "price": 120,
+      "category": "Consolas",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur sapiente aliquid rerum eaque, ducimus dignissimos cupiditate quidem velit aut facere sequi assumenda officiis reiciendis recusandae quae dolorum! Voluptate, optio.",
+      "id": 8
+    },
+    {
+      "img": "Imagenes/consolas/unsplash_ZV7lnfyQLmA.png",
+      "title": "Producto 3",
+      "price": 95,
+      "category": "Consolas",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur sapiente aliquid rerum eaque, ducimus dignissimos cupiditate quidem velit aut facere sequi assumenda officiis reiciendis recusandae quae dolorum! Voluptate, optio.",
+      "id": 9
+    },
+    {
+      "img": "Imagenes/consolas/unsplash_wa5z9o9fgjw.png",
+      "title": "Producto 4",
+      "price": 55,
+      "category": "Consolas",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur sapiente aliquid rerum eaque, ducimus dignissimos cupiditate quidem velit aut facere sequi assumenda officiis reiciendis recusandae quae dolorum! Voluptate, optio.",
+      "id": 10
+    },
+    {
+      "img": "Imagenes/consolas/unsplash_Zjn4dT993-g.png",
+      "title": "Producto 5",
+      "price": 75,
+      "category": "Consolas",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur sapiente aliquid rerum eaque, ducimus dignissimos cupiditate quidem velit aut facere sequi assumenda officiis reiciendis recusandae quae dolorum! Voluptate, optio.",
+      "id": 11
+    },
+    {
+      "img": "Imagenes/consolas/unsplash_k-xYhI3-gJM.png",
+      "title": "Producto 6",
+      "price": 43,
+      "category": "Consolas",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur sapiente aliquid rerum eaque, ducimus dignissimos cupiditate quidem velit aut facere sequi assumenda officiis reiciendis recusandae quae dolorum! Voluptate, optio.",
+      "id": 12
+    }
+  ],
+  "diversos": [
+    {
+      "img": "./Imagenes/diversos/unsplash_fMP-oCze3AY.png",
+      "title": "Producto 1",
+      "price": 13,
+      "category": "Diversos",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur sapiente aliquid rerum eaque, ducimus dignissimos cupiditate quidem velit aut facere sequi assumenda officiis reiciendis recusandae quae dolorum! Voluptate, optio.",
+      "id": 13
+    },
+    {
+      "img": "./Imagenes/diversos/unsplash_bUgaIaZysH0.png",
+      "title": "Producto 2",
+      "price": 12.25,
+      "category": "Diversos",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur sapiente aliquid rerum eaque, ducimus dignissimos cupiditate quidem velit aut facere sequi assumenda officiis reiciendis recusandae quae dolorum! Voluptate, optio.",
+      "id": 14
+    },
+    {
+      "img": "./Imagenes/diversos/unsplash_sYVY_ZKwaxU.png",
+      "title": "Producto 3",
+      "price": 17.25,
+      "category": "Diversos",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur sapiente aliquid rerum eaque, ducimus dignissimos cupiditate quidem velit aut facere sequi assumenda officiis reiciendis recusandae quae dolorum! Voluptate, optio.",
+      "id": 15
+    },
+    {
+      "img": "./Imagenes/diversos/unsplash_jMT6BrgBuXU.png",
+      "title": "Producto 4",
+      "price": 10,
+      "category": "Diversos",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur sapiente aliquid rerum eaque, ducimus dignissimos cupiditate quidem velit aut facere sequi assumenda officiis reiciendis recusandae quae dolorum! Voluptate, optio.",
+      "id": 16
+    },
+    {
+      "img": "./Imagenes/diversos/unsplash_MxVkWPiJALs.png",
+      "title": "Producto 5",
+      "price": 60,
+      "category": "Diversos",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur sapiente aliquid rerum eaque, ducimus dignissimos cupiditate quidem velit aut facere sequi assumenda officiis reiciendis recusandae quae dolorum! Voluptate, optio.",
+      "id": 17
+    },
+    {
+      "img": "./Imagenes/diversos/unsplash_r27umXAelDc.png",
+      "title": "Producto 6",
+      "price": 60,
+      "category": "Diversos",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur sapiente aliquid rerum eaque, ducimus dignissimos cupiditate quidem velit aut facere sequi assumenda officiis reiciendis recusandae quae dolorum! Voluptate, optio.",
+      "id": 18
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+.searchBar{
+    width: 300px;
+}
+.input-nav{
+    width: 150px;
+}
+.fa-gamepad{
+    font-size: 30px;
+    align-content: center;
+    color: blue;
+    margin-right: 10px;
+}
+.alura{
+    color: blue;
+}
+
+.btn{
+    width: 150px;
+}
+.h4{
+    font-size: 15px;
+}
+.banner{
+    background-image: url('./Imagenes/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section1-link{
+    margin-left: 900px;
+}
+.fa-arrow-right{
+    color: blue;
+}
+
+footer{
+    background-color: #EAF2FD;;
+}
+
+.input{
+    width: 350px;
+    height: 10px;
+}
+.boton{
+    width: 120px;
+}
+
+.group{
+    width: 50px;
+}
+
+.form{
+    margin-left: 28%;
+}
+.size1{
+    width: 186px;
+    height: 124px;
+    border: solid red 2px ;
+}
+.size1 img{
+    width: 181px;
+    height: 120px;
+}
+
+
+
